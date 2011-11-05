@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+<link rel="stylesheet"  href="./css/jquery.mobile-1.0rc2.min.css" />  
+<script src="./js/jquery-1.6.4.min.js"></script>
+<script src="./js/jquery.mobile-1.0rc2.min.js"></script>
+<link rel="stylesheet" href="./css/theme.css" />
+
+<script src="./js/app.js"></script>
+</head>
+<body>
+<div data-role="page" id="mainPage" >
+  <div data-role="header">
+    <h1 id="title">Page Title</h1>
+  </div>
+  <!-- /header -->
+  <div data-role="content">
+    <div id="content">Page content goes here. </div>
+    <!-- /content -->
+  </div>
+  <div data-role="content">
+    <ul id="menu" data-role="listview" data-theme="g">
+    </ul>
+  </div>
+  <div  data-role="footer" data-id="foo1" data-position="fixed">
+    <div data-role="navbar">
+		<ul>
+			<li><a href="/" data-icon="home">Home</a></li>
+			<li><a href="/news" data-icon="grid">News</a></li>
+			<li><a href="/events" data-icon="gear">Events</a></li>
+			<li><a href="/contact-info" data-icon="info">Contact</a></li>
+			<li><a href="/search" data-icon="search">Search</a></li>
+		</ul>
+	</div>
+  </div>
+</div>
+<!-- /page -->
+</body>
+</html>
